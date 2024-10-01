@@ -481,6 +481,13 @@ mark,
   height: auto;
 }
 
+/* Styles for larger screens (desktop) */
+@media (min-width: 1024px) {
+  .img-fluid {
+    max-width: 200%; /* Example: Reduce width to 80% on desktop */
+  }
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
