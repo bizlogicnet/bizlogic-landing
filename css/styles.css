@@ -2343,9 +2343,14 @@ a:hover.back-to-top {
 	border-radius: 50%;
 }
 
+.img-fluid-header {
+	max-width: 100%;
+	height: auto;
+  }
+
 /* Styles for larger screens (desktop) */
 @media (min-width: 1024px) {
-	.img-fluid {
+	.img-fluid-header {
 	  max-width: 200%; /* Example: Reduce width to 80% on desktop */
 	}
   }
