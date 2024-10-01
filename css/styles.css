@@ -2354,3 +2354,8 @@ a:hover.back-to-top {
 	  max-width: 200%; /* Example: Reduce width to 80% on desktop */
 	}
   }
+
+  .img-fluid-press {
+	max-width: 100%;
+	height: auto;
+  }
